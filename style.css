@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pannel{
+    position: absolute;
+    top: 30%;
+    border-radius: 10px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 200px;
+    width: 300px;
+    background-color: #eee;
+}
+.inputs input{
+    padding: 10px 22px;
+    outline: none;
+    margin-left: 10px;
+}
+.butt{
+    position: absolute;
+    top: 60%;
+}
+.butt button{
+padding: 14px 35px;
+background-color: rgb(255, 255, 0);
+
+}
+
+.inputs :nth-child(1){
+border: 4px solid rgb(255, 106, 106);
+}
+
+.inputs :nth-child(2){
+    border: 4px solid rgb(0, 218, 0);
+}
+
+.inputs :nth-child(3){
+    border: 4px solid rgb(61, 61, 255);
+}
+.sidepannel{
+    height: 250px;
+    width: 200px;
+    background-color: #EEEEEE;
+    position: absolute;
+    right: 0;
+    top: 10%;
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.ball{
+    height: 30px;
+    width: 30px;
+    /* background-color: blue;   */
+    border-radius: 50%;
+    margin-right: 10px;
+}
